@@ -208,7 +208,7 @@ slides > slide {
   @include border-radius(0);
   //border-bottom: 5px solid transparent;
 
-  $slide-left-right-padding: 40px;
+  $slide-left-right-padding: 40px !global;
   padding: 0 $slide-left-right-padding;
 
   &.backdrop {
@@ -222,7 +222,7 @@ slides > slide {
       left: initial;
     }
     &::before {
-      background: url(../../images/polymer/p-logo-square.png) no-repeat 0 50%;
+      background: url(../../images/logos/webrtc-logo.png) no-repeat 0 50%;
       padding: 0 $slide-left-right-padding;
       background-size: $brand-small-icon-size $brand-small-icon-size;
     }
@@ -314,7 +314,7 @@ slides > slide {
   //   &.elements {
   //     .overlay {
   //       &.top {
-  //         height: 0; 
+  //         height: 0;
   //       }
   //       &.bottom {
   //         height: 283px;
@@ -325,7 +325,7 @@ slides > slide {
   //   &.core {
   //     .overlay {
   //       &.top {
-  //         height: 298px; 
+  //         height: 298px;
   //       }
   //       &.bottom {
   //         height: 247px;
@@ -336,7 +336,7 @@ slides > slide {
   //   &.platform {
   //     .overlay {
   //       &.top {
-  //         height: 333px; 
+  //         height: 333px;
   //       }
   //       &.bottom {
   //         height: 0;

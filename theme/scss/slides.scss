@@ -15,11 +15,14 @@
   }
 }
 
-.iologo {
-  img {
-    width: auto;
-    height: 200px;
-  }
+.logo {
+  font-family: "Copse", serif;
+  font-size: 75px;
+  line-height: 75px;
+  text-transform: lowercase;
+  font-weight: 300;
+  color: rgb(230, 230, 223);
+  background: linear-gradient(rgb(22, 57, 86),rgb(26, 102, 167));
 }
 
 .source {
@@ -66,74 +69,14 @@ core-icon {
 
 
 body {
-  // &.insane {
-  //   background: url('../../images/screenshots/plusjs.png') no-repeat 50% 50%;
-  //   background-size: cover;
-  // }
-  // &.site {
-  //   background: url('../../images/polymer/homepage.png') no-repeat 50% 0;
-  //   background-size: cover;
-  // }
-  
-  // &.colorize {
-  //   transition: background 500ms ease-in-out;
-  //   color: white;
-  // }
-
-  &.readable {
-    background: url('../../images/screenshots/gmail.png') no-repeat 0 0;
+  &.title {
+    background: url('../../images/bgs/strangelove/phone-2.jpg') no-repeat 50% 50%;
     background-size: cover;
   }
-
-  // &.uikit {
-  //   background: url('../../images/slides/uikit.jpg') no-repeat 0 0;
-  //   background-size: cover;
-  // }
-  // &.howwebuildapps {
-  //   background: url('../../images/gifs/wtf.gif') no-repeat 50% 50%;
-  //   background-size: cover;
-  // }
-  // &.googlecomhistory {
-  //   background: url('../../images/bgs/timemachine.jpg') no-repeat 0 0;
-  //   background-size: cover;
-  // }
-  // &.netscape {
-  //   background: url('../../images/bgs/netscape.gif') no-repeat 50% 50%, url('../../images/bgs/bg-rep.png');
-  //   background-color: black;
-  //   background-size: 65%, 20px;
-  // }
-  &.checkers {
-    background: url('../../images/bgs/bg-rep.png');
-    background-size: 10px;
-  }
-
-  &.time {
-    background: url('../../images/bgs/time_small.jpg') no-repeat 50% 50%;
-    // background-color: rgba(255, 255, 255,0.5);
-    // background-blend-mode: luminosity;
-    background-size: cover;
-  }
-  &.problem {
-    background: url('../../images/bgs/grassbeach_smaller.jpg') no-repeat 50% 100%;
-    background-color: rgba(0,0,0,0.3);
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  // &.swanson {
-  //   background: url('../../images/gifs/ron-moved.gif') no-repeat 50% 50%;
-  //   background-size: cover;
-  // }
-  // &.smallchange {
-  //   background: url('../../images/bgs/smallchange.jpg') no-repeat 50% 50%;
-  //   background-size: cover;
-  // }
-  &.lastyear {
-    background: url('../../images/slides/wcshift.com.png') no-repeat 50% 50%;
-    background-size: cover;
-  }
-  &.field {
-    background: url('../../images/bgs/field.jpg') no-repeat 50% 50%;
-    background-size: cover;
+  &.game {
+    background: url('../../images/slides/how-i-got-into-webrtc.gif') no-repeat 50% 50%;
+    background-size: contain;
+    background-color: rgb(26, 31, 37);
   }
   &.road {
     background: url('../../images/bgs/road_smaller.jpg') no-repeat 50% 50%;
@@ -247,22 +190,23 @@ slide#title-slide {
   }
 
   article > div {
-    background: -webkit-linear-gradient(bottom, transparent, rgba(0,0,0,0.6), transparent);
+    @include background-image(linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0.6) 50%,rgba(0,0,0,0.35) 100%));
+    // background: -webkit-linear-gradient(bottom, transparent, rgba(0,0,0,0.8), transparent);
     // background-color: rgba(0,0,0,0.6);
     width: 100%;
     padding: 60px 80px;
   }
 
   hgroup {
-    background: url(../../images/polymer/p-logo-square.png) no-repeat;
-    background-size: 175px;
+    background: url(../../images/logos/webrtc-logo.png) no-repeat;
+    background-size: 135px;
     background-position: 0 50%;
     padding-left: 200px;
 
     // text-shadow: 2px 2px 3px #000;
 
     h1 {
-      font-size: 60px;
+      font-size: 80px;
       font-weight: 400;
     }
 
@@ -743,7 +687,7 @@ slide.twopanel {
         background: $materialPurple;
       }
     }
-    
+
     h2, h3 {
       text-transform: uppercase;
       background: $brand-red;
@@ -801,7 +745,7 @@ slide#mapstoday {
       -webkit-animation: scrollDown 10s linear;
     }
   }
-  
+
   pre {
     // cursor: pointer;
     transform-origin: 50% 0;
@@ -810,7 +754,7 @@ slide#mapstoday {
     background: none;
     font-size: 25px;
     z-index: 1;
-  
+
   }
   pre:active {
     transform: scale(0.35);
@@ -1117,7 +1061,7 @@ slide#element-types {
     @include align-items(flex-start);
     @include flex-direction(column);
     margin-right: $slide-top-bottom-padding;
-    
+
     *:not(h4) {
       flex: none;
       margin: 20px 0;
@@ -1142,7 +1086,7 @@ slide#element-types {
 //       color: $brand-red;
 //     }
 //   }
-  
+
 // }
 
 // .component-demo {
@@ -1175,7 +1119,7 @@ slide#google-map-slide {
     //@include align-items(flex-start);
     @include transition(all 300ms ease-in-out);
     @include transform(translate3d(0,0,0));
-    
+
     &.slidedown {
       @include transform(translate3d(0,40%,0));
     }
@@ -1211,7 +1155,7 @@ slide#polymerurl {
     span {
       display: inline-block;
       @include transition(all 400ms ease-in-out);
-      
+
       &:first-child {
         @include transform(translateY(-140px) translateX(470px));
       }
@@ -1248,7 +1192,7 @@ slide#polymerurl {
   //   span {
   //     display: inline-block;
   //     @include transition(all 400ms ease-in-out);
-      
+
   //     &:first-child {
   //       @include transform(translateY(-110px) translateX(387px));
   //     }
