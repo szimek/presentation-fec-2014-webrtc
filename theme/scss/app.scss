@@ -34,7 +34,7 @@ body {
   //     opacity: 0;
   //   }
   // }
-  
+
   //@include background(linear-gradient($gray-1, white 10%, white 90%, $gray-1));
   @extend .bodybg;
   background-color: white;
@@ -59,7 +59,7 @@ body {
   //               -ms-linear-gradient(63deg, rgb(34, 34, 34) 5px, transparent 5px) 0px 10px,
   //               -ms-linear-gradient(243deg, rgb(34, 34, 34) 5px, transparent 5px) 10px 5px,
   //               -ms-linear-gradient(0deg, rgb(27, 27, 27) 10px, transparent 10px),
-  //               -ms-linear-gradient(rgb(29, 29, 29) 25%, rgb(26, 26, 26) 25%, rgb(26, 26, 26) 50%, transparent 50%, transparent 75%, rgb(36, 36, 36) 75%, rgb(36, 36, 36));     
+  //               -ms-linear-gradient(rgb(29, 29, 29) 25%, rgb(26, 26, 26) 25%, rgb(26, 26, 26) 50%, transparent 50%, transparent 75%, rgb(36, 36, 36) 75%, rgb(36, 36, 36));
   //   background-color: rgb(19, 19, 19);
   //   @include background-size(20px 20px);
   // }
@@ -197,7 +197,7 @@ article.quote {
 // }
 
 slides > slide {
-  
+
   // Do default transition if classes forces it.
   &:not(.do-transition) {
     @include transition(none);
@@ -483,7 +483,7 @@ label {
 // }
 
 .smaller {
-  ul > li::before { 
+  ul > li::before {
     margin-top: 1px;
     margin-left: -1.4em;
   }
@@ -732,7 +732,7 @@ body.with-notes {
   }
 }
 
-.devtools { 
+.devtools {
   @include transition(all 400ms ease-in-out);
   width: 100%;
   background-size: contain;
@@ -754,15 +754,6 @@ slide.browser-support {
     -webkit-transform-origin: 0 50%;
     -moz-transform-origin: 0 50%;
     @include flex(1 0 970px);
-  }
-
-  article {
-    h3 {
-      font-size: 45px;
-      @include flex(1 0 300px);
-      white-space: nowrap;
-      @include align-self(center);
-    }
   }
 }
 

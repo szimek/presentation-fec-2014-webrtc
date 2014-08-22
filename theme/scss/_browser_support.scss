@@ -76,36 +76,6 @@
       left: 26px;
     }
 
-    &:nth-of-type(1) {
-      img {
-        height: 245px;
-      }
-    }
-
-    &:nth-of-type(3) {
-      &:before {
-        left: 37px;
-      }
-      img {
-        height: 235px;
-      }
-    }
-
-    &:nth-of-type(4) {
-      &:before {
-        left: 35px;
-      }
-    }
-
-    &:nth-of-type(5) {
-      &:before {
-        left: 46px;
-      }
-      img {
-        height: 255px; 
-      }
-    }
-
     img {
       height: 225px;
       opacity: 0.25;

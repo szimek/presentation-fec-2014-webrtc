@@ -69,6 +69,16 @@ core-icon {
 
 
 body {
+  &.checkers {
+    hgroup {
+      position: absolute;
+      top: 50%;
+    }
+    h3 {
+      height: auto !important;
+      background-color: #303030 !important;
+    }
+  }
   &.title {
     background: url('../../images/bgs/strangelove/phone-2.jpg') no-repeat 50% 50%;
     background-size: cover;
@@ -78,29 +88,23 @@ body {
     background-size: contain;
     background-color: rgb(26, 31, 37);
   }
-  &.road {
-    background: url('../../images/bgs/road_smaller.jpg') no-repeat 50% 50%;
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: multiply;
+  &.amazon-mayday {
+    background: url('../../images/slides/amazon-mayday.jpg') no-repeat 50% 50%;
+    background-size: contain;
+    background-color: #f1f1f1;
+
+  }
+  &.one-click {
+    background: url('../../images/slides/1click.png') no-repeat 50% 50%;
+    background-size: contain;
+  }
+  &.raptfm {
+    background: url('../../images/slides/raptfm.png') no-repeat 50% 50%;
     background-size: cover;
   }
-  &.forest {
-    background: url('../../images/bgs/forest.jpg') no-repeat 50% 50%;
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  &.zen {
-    background: url('../../images/bgs/zen.jpg') no-repeat 50% 50%;
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: multiply;
-    background-size: cover;
-  }
-  &.htmlascustomelesgithub {
-    background: url('../../images/slides/htmlascustomeles.jpg') no-repeat 30% 100%;
-    background-color: rgba(0,0,0,0.6);
-    background-blend-mode: multiply;
-    background-size: 130%;
+  &.xkcd-file-transfer {
+    background: url('../../images/slides/xkcd-file-transfer.png') no-repeat 50% 50%;
+    background-size: contain;
   }
   &.scoping {
     background: url('../../images/bgs/scoping3.jpg') no-repeat 50% 50%;
