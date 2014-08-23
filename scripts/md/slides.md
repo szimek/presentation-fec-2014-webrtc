@@ -411,7 +411,7 @@ content_class: flexbox vcenter
 content_class: flexbox vcenter
 
 <div class="centered">
-  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">determine volume</h2>
+  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">measure volume</h2>
   <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">change pitch of your voice</h2>
   <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">mix and broadcast music</h2>
 </div>
