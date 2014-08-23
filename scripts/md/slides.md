@@ -96,48 +96,69 @@ content_class: flexbox vcenter
 
 ---
 
-class: nobackground
+body_class: strangelove-war-room
+class: nobackground fullviewport
 content_class: flexbox vcenter centered
 
+<div class="overlay">
 <h1 style="font-size: 170px; letter-spacing: 10px; text-transform: uppercase;">A brief</h1>
 <h1 style="font-size: 170px; letter-spacing: -3px; text-transform: uppercase; margin-left: -15px;">history</h1>
-<h1 style="font-size: 130px; letter-spacing: -3px; text-transform: uppercase; margin-left: -15px;"">of <span style="color: rgb(40, 40, 40);">WebRTC</span></h1>
+<h1 style="font-size: 130px; letter-spacing: -3px; text-transform: uppercase; margin-left: -15px;"">of WebRTC</h1>
+</div>
 
 ---
 
-class: nobackground
-content_class: fullviewport
+body_class: strangelove-war-room
+class: nobackground fullviewport
+content_class: flexbox vcenter centered
 
-<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; margin-top: 100px; font-weight: 600;">10/2011</h2>
-<h2 style="font-size: 120px; line-height: 110px; margin-top: 0; margin-right: -200px;">first <span>draft</span> of the spec</h2>
+<div class="overlay">
+<h2 style="font-size: 160px; line-height: 200px; margin-left: -650px; font-weight: 600;">10/2011</h2>
+<h2 style="font-size: 120px; line-height: 110px;">first <span>draft</span> of the spec</h2>
+</div>
 <!-- TODO: picture telco / war-room -->
 
 ---
 
-class: nobackground
-content_class: fullviewport
+body_class: strangelove-war-room
+class: nobackground fullviewport
+content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; margin-top: 100px; font-weight: 600;">02/2013</h2>
-<h2 style="font-size: 120px; line-height: 110px; margin-top: 0; margin-right: -200px;">first cross-browser<br><span>video call</span></h2>
+<div class="overlay">
+<div class="wrapper">
+<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">02/2013</h2>
+<h2 style="font-size: 120px; line-height: 110px;">first cross-browser<br><span>video call</span></h2>
 <a href="https://www.youtube.com/watch?v=aN0851GtND4">https://www.youtube.com/watch?v=aN0851GtND4</a>
+</div>
+</div>
 <!-- TODO: picture youtube -->
 
 ---
 
-class: nobackground
-content_class: fullviewport
+body_class: strangelove-war-room
+class: nobackground fullviewport
+content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; margin-top: 100px; font-weight: 600;">02/2014</h2>
-<h2 style="font-size: 120px; line-height: 110px; margin-top: 0; margin-right: -200px;">cross-browser<br><span>data transfers<span></h2>
+<div class="overlay">
+<div class="wrapper">
+<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">02/2014</h2>
+<h2 style="font-size: 120px; line-height: 110px;">cross-browser<br><span>data transfers<span></h2>
+</div>
+</div>
 <!-- TODO: picture telco / war-room -->
 
 ---
 
-class: nobackground
-content_class: fullviewport
+body_class: strangelove-war-room
+class: nobackground fullviewport
+content_class: flexbox vcenter
 
-<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; margin-top: 100px; font-weight: 600;">07/2014</h2>
-<h2 style="font-size: 120px; line-height: 110px; margin-top: 0; margin-right: -200px;">Hangouts<br>uses <small style="font-size: 30px; line-height: 30px;">(kind of)</small> WebRTC<br>on Chrome 36+</h2>
+<div class="overlay">
+<div class="wrapper">
+<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">07/2014</h2>
+<h2 style="font-size: 120px; line-height: 110px;">Hangouts<br>uses <small style="font-size: 30px; line-height: 30px;">(kind of)</small> WebRTC<br>on Chrome 36+</h2>
+</div>
+</div>
 <!-- TODO: picture -->
 
 ---
