@@ -4,6 +4,7 @@ content_class: flexbox vcenter
 <img data-src="images/me.jpg" style="width: 150px; height: 150px;">
 <h3>Szymon Nowak</h3>
 <h3><a href="https://twitter.com/szimek">@szimek</a></h3>
+<h3><a href="https://cowbell-labs.com">Cowbell Labs</a></h3>
 
 ---
 
@@ -83,7 +84,7 @@ content_class: flexbox vcenter centered
 
 ---
 
-class: fullviewport
+class: nobackground fullviewport
 content_class: flexbox vcenter
 
 <h1 style="font-size: 140px;"><em style="font-weight: 100">how I got into this</em></h1>
@@ -110,11 +111,11 @@ content_class: flexbox vcenter centered
 
 body_class: strangelove-war-room
 class: nobackground fullviewport
-content_class: flexbox vcenter centered
+content_class:
 
-<div class="overlay">
-<h2 style="font-size: 160px; line-height: 200px; margin-left: -650px; font-weight: 600;">10/2011</h2>
-<h2 style="font-size: 120px; line-height: 110px;">first <span>draft</span> of the spec</h2>
+<div class="overlay overlay-fixed-top">
+<h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">10/2011</h2>
+<h2 style="font-size: 100px; line-height: 110px;">first <span>draft</span> of the spec</h2>
 </div>
 <!-- TODO: picture telco / war-room -->
 
@@ -122,14 +123,12 @@ content_class: flexbox vcenter centered
 
 body_class: strangelove-war-room
 class: nobackground fullviewport
-content_class: flexbox vcenter
+content_class:
 
-<div class="overlay">
-<div class="wrapper">
+<div class="overlay overlay-fixed-top">
 <h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">02/2013</h2>
-<h2 style="font-size: 120px; line-height: 110px;">first cross-browser<br><span>video call</span></h2>
+<h2 style="font-size: 100px; line-height: 110px;">first cross-browser<br><span>video call</span></h2>
 <a href="https://www.youtube.com/watch?v=aN0851GtND4">https://www.youtube.com/watch?v=aN0851GtND4</a>
-</div>
 </div>
 <!-- TODO: picture youtube -->
 
@@ -137,13 +136,11 @@ content_class: flexbox vcenter
 
 body_class: strangelove-war-room
 class: nobackground fullviewport
-content_class: flexbox vcenter
+content_class:
 
-<div class="overlay">
-<div class="wrapper">
+<div class="overlay overlay-fixed-top">
 <h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">02/2014</h2>
-<h2 style="font-size: 120px; line-height: 110px;">cross-browser<br><span>data transfers<span></h2>
-</div>
+<h2 style="font-size: 100px; line-height: 110px;">cross-browser<br><span>data transfers<span></h2>
 </div>
 <!-- TODO: picture telco / war-room -->
 
@@ -151,19 +148,17 @@ content_class: flexbox vcenter
 
 body_class: strangelove-war-room
 class: nobackground fullviewport
-content_class: flexbox vcenter
+content_class:
 
-<div class="overlay">
-<div class="wrapper">
+<div class="overlay overlay-fixed-top">
 <h2 style="font-size: 160px; line-height: 200px; margin-left: -100px; font-weight: 600;">07/2014</h2>
-<h2 style="font-size: 120px; line-height: 110px;">Hangouts<br>uses <small style="font-size: 30px; line-height: 30px;">(kind of)</small> WebRTC<br>on Chrome 36+</h2>
-</div>
+<h2 style="font-size: 100px; line-height: 110px;">Hangouts<br>uses <small style="font-size: 30px; line-height: 30px;">(kind of)</small> WebRTC<br>on Chrome 36+</h2>
 </div>
 <!-- TODO: picture -->
 
 ---
 
-class: fullviewport nobackground
+class: nobackground fullviewport
 content_class: flexbox vcenter
 
 <h2 style="font-size: 200px; font-weight: 600;">audio / video</h2>
@@ -172,7 +167,8 @@ content_class: flexbox vcenter
 content_class: flexbox vcenter
 
 <h2 style="font-size: 120px; font-weight: 600">customer support</h2>
-<!-- TODO: background custom-support.png -->
+<!-- TODO: background cust
+om-support.png -->
 
 ---
 
@@ -432,7 +428,7 @@ content_class: flexbox vcenter
 content_class: flexbox vcenter
 
 <div class="centered">
-  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">determine volume</h2>
+  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">measure volume</h2>
   <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">change pitch of your voice</h2>
   <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">mix and broadcast music</h2>
 </div>
@@ -505,6 +501,11 @@ content_class: flexbox vcenter
 
 <h2 style="font-size: 120px; line-height: 110px; margin-left: -450px; margin-top: 100px;">live streaming</h2>
 <h2 style="font-size: 160px; line-height: 200px; margin-top: 0; margin-right: -200px; font-weight: 600;">presentations</h2>
+
+---
+
+body_class: raise-your-hand
+class: nobackground
 
 ---
 
@@ -712,10 +713,25 @@ class: nobackground twopanel
 
 ---
 
+body_class: strangelove-help
+class: nobackground fullviewport
 content_class: flexbox vcenter centered
 
+<div class="overlay">
 <h1 style="font-size: 75px; margin-bottom: 25px;"><a href="https://www.youtube.com/watch?v=p2HzZkd2A40">Real-time communication with WebRTC</a></h1>
 <h2>by Justin Uberti and Sam Dutton</h2>
+</div>
+
+---
+
+body_class: strangelove-help
+class: nobackground fullviewport
+content_class: flexbox vcenter
+
+<div class="overlay centered">
+  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;"><a href="http://simplewebrtc.com/">SimpleWebRTC</a></h2>
+  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;"><a href="http://peerjs.com/">PeerJS</a></h2>
+</div>
 
 ---
 
@@ -754,15 +770,6 @@ webrtc.on('channelMessage', function (peer, channelName, data) {
 
 content_class: flexbox vcenter
 
-<div class="centered">
-  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;"><a href="http://simplewebrtc.com/">SimpleWebRTC</a></h2>
-  <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;"><a href="http://peerjs.com/">PeerJS</a></h2>
-</div>
-
----
-
-content_class: flexbox vcenter
-
 <h2 style="font-size: 70px; line-height: 125px; font-weight: 600;">browser support</h2>
 
 ---
@@ -777,25 +784,31 @@ content_class: flexbox vcenter
 
 ---
 
+body_class: strangelove-world
+class: nobackground fullviewport
 content_class: flexbox vcenter
 
-<h1 style="font-size: 125px; margin-bottom: 25px;">1,700,000,000</h1>
-<h2>devices by the end of 2014</h2>
+<div class="overlay centered">
+  <h1 style="font-size: 125px; margin-bottom: 25px;">1,700,000,000</h1>
+  <h2>devices by the end of 2014</h2>
+</div>
 
 ---
 
+body_class: strangelove-world
+class: nobackground fullviewport
 content_class: flexbox vcenter
 
-<h2 style="font-size: 120px; font-weight: 600">Object RTC</h2>
+<div class="overlay centered">
+<h2 style="font-size: 120px; font-weight: 600; line-height: 175px;">Object RTC</h2>
+</div>
 
 ---
 
+body_class: strangelove-world
+class: nobackground fullviewport
 content_class: flexbox vcenter
 
-<h2 style="font-size: 120px; font-weight: 600">thank you!</h2>
-
----
-
-content_class: flexbox vcenter
-
-<h2 style="font-size: 120px; font-weight: 600">links</h2>
+<div class="overlay centered">
+<h2 style="font-size: 120px; font-weight: 600; line-height: 175px;">thank you!</h2>
+</div>

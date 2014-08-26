@@ -110,12 +110,29 @@ body {
     background: url('../../images/bgs/strangelove/telco-1-darker.png') no-repeat 50% 50%;
     background-size: cover;
   }
+
+  &.strangelove-help {
+    background: url('../../images/bgs/strangelove/reassure.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  &.strangelove-world {
+    background: url('../../images/bgs/strangelove/world.jpg') no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  &.raise-your-hand {
+    background: url('../../images/slides/raise_your_hand.jpg') no-repeat 50% 50%;
+    background-size: cover;
+
+  }
 }
 
 slide .overlay {
   @include background-image(linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0.6) 50%,rgba(0,0,0,0.35) 100%));
   width: 100%;
-  padding: 20px 0;
+  box-sizing: border-box;
+  padding: 20px 150px;
 
   .wrapper {
     width: 80%;
@@ -126,6 +143,10 @@ slide .overlay {
   h1, h2, a {
     color: #f5f5f5;
   }
+}
+
+slide .overlay-fixed-top {
+  margin-top: 100px;
 }
 
 
