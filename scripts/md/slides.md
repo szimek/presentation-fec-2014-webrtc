@@ -402,6 +402,13 @@ content_class: flexbox vcenter
 class: nobackground
 content_class: flexbox vcenter
 
+<a href="https://webrtc-translate.herokuapp.com"><img data-src="images/slides/webrtc-translate.png" style="height: 550px;"></a>
+
+---
+
+class: nobackground
+content_class: flexbox vcenter
+
 <h2 style="font-size: 120px; font-weight: 600">image processing</h2>
 
 ---
@@ -625,7 +632,14 @@ content_class: flexbox vcenter
 class: nobackground
 content_class: flexbox vcenter
 
-<h2 style="font-size: 225px; font-weight: 600;"><a href="https://www.sharedrop.io">demo #4</a></h2>
+<h2 style="font-size: 120px; font-weight: 600;"><a href="https://www.sharedrop.io">sharedrop.io</a></h2>
+
+---
+
+class: nobackground
+content_class: flexbox vcenter
+
+<iframe width="853" height="480" src="//www.youtube.com/embed/mlOS2RwI0SE" frameborder="0" allowfullscreen></iframe>
 
 ---
 
