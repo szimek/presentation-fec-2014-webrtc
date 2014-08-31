@@ -1,7 +1,7 @@
 {
-  "name": "io2014-polymer-changer",
+  "name": "fec14-webrtc",
   "version": "0.0.0",
-  "description": "polymer slide deck",
+  "description": "webrt slide deck",
   "main": "gruntfile.js",
   "dependencies": {},
   "devDependencies": {

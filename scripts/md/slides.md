@@ -443,7 +443,8 @@ class: nobackground
 content_class: flexbox vcenter
 
 <h2 style="font-size: 100px; font-weight: 600; line-height: 150px;">WebAudio API</h2>
-<h2 style="font-size: 50px; font-weight: 600; line-height: 150px;">can use WebRTC media stream</h2>
+<h2 style="font-size: 50px; font-weight: 600; line-height: 75px;">can use and create</h2>
+<h2 style="font-size: 50px; font-weight: 600; line-height: 75px;">WebRTC media streams</h2>
 
 ---
 
@@ -462,7 +463,7 @@ class: nobackground
 content_class: flexbox vcenter centered
 
 <h2 style="font-size: 100px; line-height: 150px; font-weight: 600;">high</h2>
-<h2 style="font-size: 125px; line-height: 150px; font-weight: 600;">CPU / battery</h2>
+<h2 style="font-size: 125px; line-height: 150px; font-weight: 600;">CPU / energy</h2>
 <h2 style="font-size: 100px; line-height: 150px; font-weight: 600;">usage</h2>
 
 ---
@@ -705,7 +706,7 @@ content_class: flexbox vcenter
 body_class: checkers
 class: nobackground twopanel
 
-<div layout vertical justified>
+<div layout vertical>
   <section flex layout horizontal class="build">
     <h3 class="white red" flex layout vertical center center-justified>SDP
       <span block>Session Description Protocol</span>
@@ -822,18 +823,6 @@ content_class: flexbox vcenter
 <div class="overlay centered">
   <h1 style="font-size: 125px; margin-bottom: 25px;">1,700,000,000</h1>
   <h2>devices by the end of 2014</h2>
-</div>
-
-<span class="source">© Sony Pictures</span>
-
----
-
-body_class: strangelove-world
-class: nobackground fullviewport
-content_class: flexbox vcenter
-
-<div class="overlay centered">
-<h2 style="font-size: 120px; font-weight: 600; line-height: 175px;">Object RTC</h2>
 </div>
 
 <span class="source">© Sony Pictures</span>

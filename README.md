@@ -1,7 +1,6 @@
-polymer-change
-==============
+## WebRTC - so much more than video conferencing
 
-Google I/O 2014 session
+[http://2014.frontendconf.ch](FRONTEND CONFERENCE ZURICH 2014)
 
-- slides: http://polymer-change.appspot.com/
-- video: https://www.youtube.com/watch?v=8OJ7ih8EE7s
+- slides: https://szimek.github.io/presentation-fec-2014-webrtc
+- video: coming soon

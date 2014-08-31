@@ -1,7 +1,10 @@
 <!--
-Copyright Eric Bidelman <ebidel@gmail.com> 2014
+Copyright Szymon Nowak <szimek@gmail.com> 2014
 
-Adapted from Google IO 2012 HTML5 Slide Template
+Adapted from Eric Bidelman's <ebidel@gmail.com>
+https://github.com/ebidel/polymer-change slide deck
+and Google IO 2012 HTML5 Slide Template
+
 https://code.google.com/p/io-2012-slides
 -->
 <!DOCTYPE html>
@@ -25,19 +28,9 @@ https://code.google.com/p/io-2012-slides
 
   <script src="bower_components/platform/platform.js"></script>
   <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
-  <link rel="import" href="elements/elements.html">
+  <link rel="import" href="../bower_components/polymer/polymer.html">
 </head>
 <body>
-
-<!-- <div class="sidebar left core core-bg"></div>
-<div class="sidebar right core core-bg"></div>
-
-<div class="sidebar right elements elements-bg"></div>
-<div class="sidebar left elements elements-bg"></div>
-
-<div class="sidebar left platform platform-bg"></div>
-<div class="sidebar right platform platform-bg"></div> -->
-
 
 <main role="main">
 
@@ -49,8 +42,6 @@ https://code.google.com/p/io-2012-slides
   </article>
 </slide>
 
-<!-- <slide id="first-slide" class="nobackground"></slide> -->
-
 <slide id="title-slide" class="nobackground" data-body-class="title">
   <article class="flexbox vcenter">
     <div><hgroup>
@@ -59,15 +50,12 @@ https://code.google.com/p/io-2012-slides
     </hgroup>
     <p data-config-presenter><!-- populated from slide_config.json --></p></div>
   </article>
-  <!-- <video data-src="videos/universe.webm" class="fullviewport"></video> -->
-  <!-- <audio data-src="audio/Stellardrone-Introspace.mp3" loop></audio> -->
 </slide>
 
 
 {% for slide in slides %}
 <slide {% if slide.id %}id="{{- slide.id -}}"{% endif %} {% if slide.class %}class="{{- slide.class -}}"{% endif %} {% if slide.image %}style="background-image: url({{- slide.image -}})"{% endif %} {% if slide.body_class %}data-body-class="{{- slide.body_class -}}"{% endif %} {% if slide.hidden == 'true' %}hidden{% endif %}>
   {% if 'segue' in slide.class %}
-    <!-- <aside class="gdbar"><img src="images/logos/chrome_logo.png"></aside> -->
     <hgroup class="auto-fadein">
       <h2>{{- slide.title -}}</h2>
       <h3>{{- slide.subtitle -}}</h3>

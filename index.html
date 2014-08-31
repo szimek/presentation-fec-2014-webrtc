@@ -1,7 +1,10 @@
 <!--
-Copyright Eric Bidelman <ebidel@gmail.com> 2014
+Copyright Szymon Nowak <szimek@gmail.com> 2014
 
-Adapted from Google IO 2012 HTML5 Slide Template
+Adapted from Eric Bidelman's <ebidel@gmail.com>
+https://github.com/ebidel/polymer-change slide deck
+and Google IO 2012 HTML5 Slide Template
+
 https://code.google.com/p/io-2012-slides
 -->
 <!DOCTYPE html>
@@ -25,19 +28,9 @@ https://code.google.com/p/io-2012-slides
 
   <script src="bower_components/platform/platform.js"></script>
   <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
-  <link rel="import" href="elements/elements.html">
+  <link rel="import" href="../bower_components/polymer/polymer.html">
 </head>
 <body>
-
-<!-- <div class="sidebar left core core-bg"></div>
-<div class="sidebar right core core-bg"></div>
-
-<div class="sidebar right elements elements-bg"></div>
-<div class="sidebar left elements elements-bg"></div>
-
-<div class="sidebar left platform platform-bg"></div>
-<div class="sidebar right platform platform-bg"></div> -->
-
 
 <main role="main">
 
@@ -49,8 +42,6 @@ https://code.google.com/p/io-2012-slides
   </article>
 </slide>
 
-<!-- <slide id="first-slide" class="nobackground"></slide> -->
-
 <slide id="title-slide" class="nobackground" data-body-class="title">
   <article class="flexbox vcenter">
     <div><hgroup>
@@ -59,8 +50,6 @@ https://code.google.com/p/io-2012-slides
     </hgroup>
     <p data-config-presenter><!-- populated from slide_config.json --></p></div>
   </article>
-  <!-- <video data-src="videos/universe.webm" class="fullviewport"></video> -->
-  <!-- <audio data-src="audio/Stellardrone-Introspace.mp3" loop></audio> -->
 </slide>
 
 
@@ -964,7 +953,9 @@ function anykey() {
     </hgroup>
     <article class="flexbox vcenter"><h2 style="font-size: 100px; font-weight: 600; line-height: 150px;">WebAudio API</h2>
 
-<h2 style="font-size: 50px; font-weight: 600; line-height: 150px;">can use WebRTC media stream</h2></article>
+<h2 style="font-size: 50px; font-weight: 600; line-height: 75px;">can use and create</h2>
+
+<h2 style="font-size: 50px; font-weight: 600; line-height: 75px;">WebRTC media streams</h2></article>
  
 </slide>
 
@@ -1002,7 +993,7 @@ function anykey() {
     </hgroup>
     <article class="flexbox vcenter centered"><h2 style="font-size: 100px; line-height: 150px; font-weight: 600;">high</h2>
 
-<h2 style="font-size: 125px; line-height: 150px; font-weight: 600;">CPU / battery</h2>
+<h2 style="font-size: 125px; line-height: 150px; font-weight: 600;">CPU / energy</h2>
 
 <h2 style="font-size: 100px; line-height: 150px; font-weight: 600;">usage</h2></article>
  
@@ -1559,7 +1550,7 @@ function anykey() {
       <h2></h2>
       <h3></h3>
     </hgroup>
-    <article ><div layout vertical justified>
+    <article ><div layout vertical>
   <section flex layout horizontal class="build">
     <h3 class="white red" flex layout vertical center center-justified>SDP
       <span block>Session Description Protocol</span>
@@ -1736,26 +1727,6 @@ webrtc.on('channelMessage', function (peer, channelName, data) {
     <article class="flexbox vcenter"><div class="overlay centered">
   <h1 style="font-size: 125px; margin-bottom: 25px;">1,700,000,000</h1>
   <h2>devices by the end of 2014</h2>
-</div>
-
-<p><span class="source">© Sony Pictures</span></p></article>
- 
-</slide>
-
-<slide  class="nobackground fullviewport"  data-body-class="strangelove-world" >
-  
-    <hgroup>
-      <span>
-        
-        
-        
-        
-      </span>
-      <h2></h2>
-      <h3></h3>
-    </hgroup>
-    <article class="flexbox vcenter"><div class="overlay centered">
-<h2 style="font-size: 120px; font-weight: 600; line-height: 175px;">Object RTC</h2>
 </div>
 
 <p><span class="source">© Sony Pictures</span></p></article>
