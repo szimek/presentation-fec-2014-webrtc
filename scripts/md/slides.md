@@ -404,7 +404,7 @@ content_class: flexbox vcenter
 class: nobackground
 content_class: flexbox vcenter
 
-<a href="https://webrtc-translate.herokuapp.com"><img data-src="images/slides/webrtc-translate.png" style="height: 550px;"></a>
+<a href="https://github.com/szimek/webrtc-translate"><img data-src="images/slides/webrtc-translate.png" style="height: 550px;"></a>
 
 ---
 
