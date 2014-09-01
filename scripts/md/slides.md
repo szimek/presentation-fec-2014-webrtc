@@ -76,6 +76,7 @@ content_class: flexbox vcenter centered
 
 ---
 
+class: nobackground
 content_class: flexbox vcenter centered
 
 <blockquote class="rectangle-speech-border">
@@ -245,8 +246,9 @@ content_class: flexbox vcenter
 ---
 
 class: nobackground
+content_class: flexbox vcenter
 
-<iframe data-src="https://webrtc-twilio.herokuapp.com/"></iframe>
+<a href="https://github.com/szimek/webrtc-twilio-client"><img data-src="images/slides/webrtc-twilio-client.png"></a>
 
 ---
 
@@ -627,13 +629,14 @@ class: nobackground
 content_class: flexbox vcenter
 
 <img data-src="images/slides/xkcd-file-transfer.png" style="height: 80%;">
+<span class="source"><a href="http://xkcd.com/949/">http://xkcd.com/949/</a></span>
 
 ---
 
 class: nobackground
 content_class: flexbox vcenter
 
-<h2 style="font-size: 120px; font-weight: 600;"><a href="https://www.sharedrop.io">sharedrop.io</a></h2>
+<h2 style="font-size: 120px; font-weight: 600;"><a href="https://www.sharedrop.io"><img data-src="images/slides/sharedrop.svg" style="height: 100px"></a></h2>
 
 ---
 
