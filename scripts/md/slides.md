@@ -698,6 +698,7 @@ content_class: flexbox vcenter
 
 ---
 
+class: nobackground
 content_class: flexbox vcenter
 
 <h1 style="font-size: 120px; margin-bottom: 40px; margin-top: 100px">how does</h1>
